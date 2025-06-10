@@ -1,4 +1,4 @@
-# ُSimple RAG Multi-Agent Project
+# Simple RAG Multi-Agent Project
 
 This project is an AI system built on a multi-agent architecture using LangChain. A primary Router Agent is responsible for analyzing user queries and dispatching them to one of three specialized agents:
 
