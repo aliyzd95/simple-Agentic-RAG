@@ -3,7 +3,7 @@
 This project is an AI system built on a multi-agent architecture using LangChain. A primary Router Agent is responsible for analyzing user queries and dispatching them to one of three specialized agents:
 
 1.  **Gaming Store Agent:** Answers questions about products, orders, and customers by querying a PostgreSQL database.
-2.  **AILearning Platform Agent:** Answers questions about courses, students, and instructors by querying a MongoDB database.
+2.  **AI Learning Platform Agent:** Answers questions about courses, students, and instructors by querying a MongoDB database.
 3.  **Weather Agent:** Provides real-time weather information for any city using an external API.
 
 ---
