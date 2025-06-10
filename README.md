@@ -1,9 +1,9 @@
-# RAG Multi-Agent Project
+# ُSimple RAG Multi-Agent Project
 
 This project is an AI system built on a multi-agent architecture using LangChain. A primary Router Agent is responsible for analyzing user queries and dispatching them to one of three specialized agents:
 
 1.  **Gaming Store Agent:** Answers questions about products, orders, and customers by querying a PostgreSQL database.
-2.  **AI Learning Platform Agent:** Answers questions about courses, students, and instructors by querying a MongoDB database.
+2.  **AILearning Platform Agent:** Answers questions about courses, students, and instructors by querying a MongoDB database.
 3.  **Weather Agent:** Provides real-time weather information for any city using an external API.
 
 ---
@@ -13,7 +13,7 @@ This project is an AI system built on a multi-agent architecture using LangChain
 The project is designed modularly to enhance readability, maintainability, and scalability.
 
 ```
-/rag-multi-agent-project/
+/simple-Agentic-RAG/
 |
 |-- /agents/                  # Package containing the logic for specialized agents
 |   |-- __init__.py
@@ -27,6 +27,7 @@ The project is designed modularly to enhance readability, maintainability, and s
 |
 |-- config.py                 # Central configuration file (model names, DB URIs, etc.)
 |-- main.py                   # Main entry point and agent orchestrator
+|-- main_langgraph.py         # Advanced implementation using LangGraph for orchestration
 |-- requirements.txt          # List of required Python libraries
 |-- README.md                 # This documentation file
 |-- app.log                   # Log output file (generated automatically)
@@ -66,7 +67,7 @@ Follow these steps to run the project.
 (If using Git)
 ```bash
 git clone https://github.com/aliyzd95/simple-Agentic-RAG.git
-cd rag-multi-agent-project
+cd simple-Agentic-RAG
 ```
 
 **B) Create and Activate a Virtual Environment**
